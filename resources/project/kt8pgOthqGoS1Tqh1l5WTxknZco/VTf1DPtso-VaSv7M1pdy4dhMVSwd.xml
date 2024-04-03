@@ -1,0 +1,2016 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info>
+    <MetadataNode>
+        <path value="Extensions:type:Root">
+            <path value="Information:type:Extension">
+                <node name="Info">
+                    <entry key="description" value="DICOM file handling"/>
+                </node>
+            </path>
+        </path>
+        <path value="ProjectData:type:Info">
+            <node name="Info">
+                <entry key="Name" value="DICOM"/>
+            </node>
+        </path>
+        <path value="Root:type:Categories">
+            <path value="FileClassCategory:type:Category">
+                <node name="Info">
+                    <entry key="DataType" value="None"/>
+                    <entry key="Name" value="Classification"/>
+                    <entry key="ReadOnly" value="1"/>
+                    <entry key="SingleValued" value="1"/>
+                </node>
+                <path value="961df8ef-6e18-4675-b131-59ad4d82f2ab:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="ExcludeFromToolboxExport"/>
+                        <entry key="ReadOnly" value="WRITABLE"/>
+                    </node>
+                </path>
+                <path value="artifact:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Artifact"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="convenience:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Convenience"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="derived:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Derived"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="design:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Design"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="none:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="None"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="other:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Other"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+                <path value="test:type:Label">
+                    <node name="Info">
+                        <entry key="Name" value="Test"/>
+                        <entry key="ReadOnly" value="READ_ONLY"/>
+                    </node>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:EntryPoints">
+            <path value="12985caf-232d-4c9b-bb89-026762a1e1dc:type:EntryPoint">
+                <node name="Info">
+                    <entry key="File" value="utilities/runTheseTests.m"/>
+                    <entry key="Icon" value=""/>
+                    <entry key="Name" value="runTheseTests"/>
+                    <entry key="Type" value="Basic"/>
+                    <entry key="Visible" value="1"/>
+                </node>
+            </path>
+        </path>
+        <path value="Root:type:Export">
+            <path value="d8201807-c737-488a-9cd1-d95525e43fdf:type:ExportProfile">
+                <node name="Info">
+                    <entry key="Name" value="ToolboxExport"/>
+                </node>
+                <path value="FileLabel:type:Filter">
+                    <path value="961df8ef-6e18-4675-b131-59ad4d82f2ab:type:Filter">
+                        <node name="Info">
+                            <entry key="Data" value="FileClassCategory"/>
+                        </node>
+                    </path>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:Extensions"/>
+        <path value="Root:type:Files">
+            <path value=".gitattributes:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry key="UUID" value="FileClassCategory"/>
+                        <node name="Label">
+                            <entry key="UUID" value="961df8ef-6e18-4675-b131-59ad4d82f2ab"/>
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value=".gitignore:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry key="UUID" value="FileClassCategory"/>
+                        <node name="Label">
+                            <entry key="UUID" value="961df8ef-6e18-4675-b131-59ad4d82f2ab"/>
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="ToolboxPackagingConfiguration.prj:type:File">
+                <node name="Info"/>
+            </path>
+            <path value="cmaps:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+            </path>
+            <path value="deniftify.mlapp:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry key="UUID" value="FileClassCategory"/>
+                        <node name="Label">
+                            <entry key="UUID" value="design"/>
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="doc:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="GettingStarted.mlx:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+            </path>
+            <path value="requirements:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="requirementsDICOM.mlx:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="requirementsROI.mlx:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+            </path>
+            <path value="source:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry key="UUID" value="FileClassCategory"/>
+                        <node name="Label">
+                            <entry key="UUID" value="design"/>
+                        </node>
+                    </node>
+                </node>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="DICOMROI:type:File">
+                    <node name="Info"/>
+                    <path value="1:type:DIR_SIGNIFIER">
+                        <node name="Info"/>
+                    </path>
+                    <path value="coord2D3D.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="dicomRTStruct.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="display_rtstruct.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="frameOfRefCheck.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="indexRT.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="infoFromClassic.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="ref2RT.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="replaceRefInfo.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                </path>
+                <path value="SOPClassInfo.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="dfparse.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="dselector.mlapp:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="dstructinfo.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="readSingleSliceDynamics.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="tools:type:File">
+                    <node name="Info"/>
+                    <path value="1:type:DIR_SIGNIFIER">
+                        <node name="Info"/>
+                    </path>
+                    <path value="Philips-R32-dict.txt:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="blendImScalar.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="copyPhilipsPrivate.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="display_colourmaps.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="dprivate2char.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="explore_colourmaps.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="explore_slicesview.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="extract_contour.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="findclosestslice.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="joindictprivate.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="normalise.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="plane_fit.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="setlink.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="sviewer.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="tiledimCM.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                    <path value="update_spatial_ref.m:type:File">
+                        <node name="Info">
+                            <node name="Category">
+                                <entry key="UUID" value="FileClassCategory"/>
+                                <node name="Label">
+                                    <entry key="UUID" value="design"/>
+                                </node>
+                            </node>
+                        </node>
+                    </path>
+                </path>
+            </path>
+            <path value="testDICOMdata:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="T1W_FFE13slice.dcm:type:File">
+                    <node name="Info"/>
+                </path>
+                <path value="simulatedDicoms:type:File">
+                    <node name="Info"/>
+                    <path value="1:type:DIR_SIGNIFIER">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_001.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_002.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_003.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_004.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_005.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_006.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_007.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                    <path value="ME_001_008.dcm:type:File">
+                        <node name="Info"/>
+                    </path>
+                </path>
+            </path>
+            <path value="tests:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="testROI1.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="testSOPClassInfo.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="testcoord2D3D.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="testdfparse.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="testdicomSelect.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+                <path value="testplanefit.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="test"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+            </path>
+            <path value="utilities:type:File">
+                <node name="Info"/>
+                <path value="1:type:DIR_SIGNIFIER">
+                    <node name="Info"/>
+                </path>
+                <path value="runTheseTests.m:type:File">
+                    <node name="Info">
+                        <node name="Category">
+                            <entry key="UUID" value="FileClassCategory"/>
+                            <node name="Label">
+                                <entry key="UUID" value="design"/>
+                            </node>
+                        </node>
+                    </node>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:ProjectData"/>
+        <path value="Root:type:ProjectPath">
+            <path value="70f4c3da-f99e-47d8-b196-34995ba3b9a6:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="source/tools"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+            <path value="80726115-9192-4a72-b4ce-9be5871ed368:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="source/DICOMROI"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+            <path value="8558e785-9e6e-4b99-9043-0b4094435db5:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="cmaps"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+            <path value="be65bf79-a77f-4697-b45a-ef9a03cea41f:type:Reference">
+                <node name="Info">
+                    <entry key="Ref" value="source"/>
+                    <entry key="Type" value="Relative"/>
+                </node>
+            </path>
+        </path>
+        <path value="Toolbox.Packaging:type:Files">
+            <node name="Info">
+                <entry key="toolbox.packaging.id" value="7f51ec09-af11-4ec7-8a19-e8282dce088b"/>
+            </node>
+            <path value="1:type:DIR_SIGNIFIER">
+                <node name="Info"/>
+            </path>
+        </path>
+    </MetadataNode>
+    <Files>
+        <File path=".DS_Store" value="d7f44422"/>
+        <File path=".gitattributes" value="979144e8"/>
+        <File path=".gitignore" value="d8b0cfc1"/>
+        <File path="DICOM.prj" value="e0b87f15"/>
+        <File path="Deniftify App.mlappinstall" value="db00ac87"/>
+        <File path="Deniftify App.prj" value="53cd6319"/>
+        <File path="DeniftifyApp.prj" value="6cba94a2"/>
+        <File path="DeniftifyApp/.DS_Store" value="304c661e"/>
+        <File path="DeniftifyApp/PackagingLog.html" value="e2c04b63"/>
+        <File path="DeniftifyApp/for_redistribution/.DS_Store" value="4fc917d9"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Info.plist" value="d04f2056"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM/Contents/Info.plist" value="bc8bc5bb"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM/Contents/Resources/DWARF/setup" value="d7d18f60"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM/Contents/Resources/DWARF" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM/Contents/Resources" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM/Contents" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup.dSYM" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS/setup" value="fb6f4da8"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/MacOS" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/InstallAgent_f00080000000000000.zip" value="6cf9049b"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/bundle.zip" value="88e1e7c"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/en.lproj/MainMenu.nib" value="5e6d613"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/en.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/installer.icns" value="42a8d24f"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources/splash.png" value="d6c53644"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents/Resources" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app/Contents" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution/MyAppInstaller_mcr.app" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/.DS_Store" value="495d91e1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Info.plist" value="afb6481"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/MacOS/DeniftifyApp" value="7949e76b"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/MacOS/applauncher" value="e81a4e82"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/MacOS/prelaunch" value="1ab25456"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/MacOS" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib/keyedobjects-101300.nib" value="6c64d4ad"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib/keyedobjects.nib" value="8ae8fece"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib/keyedobjects-101300.nib" value="3bfff68f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib/keyedobjects.nib" value="1bff54f6"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib/keyedobjects-101300.nib" value="f9649ce0"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib/keyedobjects.nib" value="df56e274"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib" value="38834790"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib/keyedobjects.nib" value="125d1029"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/Base.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp.ctf" value="91fc0e9e"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/includedSupportPackages.txt" value="0"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/manifest.xml" value="1b6e417c"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/requiredMCRProducts.txt" value="ad4cfc85"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/unresolvedSymbols.txt" value="93767466"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlab.mlsettings" value="7f28a157"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlab.prf" value="cec2650f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlabprefs.mat" value="d7ef4e6b"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/deniftify.mlapp" value="c86cbe79"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/source/dfparse.m" value="794721ee"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/source" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp_39c2e04e-8ca3-4768-93d6-9cd23b24b832/token" value="f4dbdf21"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp_39c2e04e-8ca3-4768-93d6-9cd23b24b832" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI/source/Contents.m" value="a4a27637"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI/source" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-external/set_external_path.m" value="d889ab81"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-external" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/SpinCalc1p3/SpinCalc.m" value="ce823cca"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/SpinCalc1p3" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/text2im.m" value="6f8ab587"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/cast_private.m" value="11807d82"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/d2mat.m" value="857d8f6b"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/data_process.m" value="3ad1b3e5"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/fillstruct.m" value="2b8de9f8"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/writeDicom.m" value="a74f18ae"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/xmlparrecread.m" value="c44b6176"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/set_imgtools_public_path.m" value="e3acf7d4"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/dgeom.m" value="d4b56bbc"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/dgeomextract.m" value="b048a6bc"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/geom2sro.m" value="d8aab3b5"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/point_plane.m" value="3f739592"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/set_plane.m" value="69fdd234"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/GUI/Contents.m" value="1a0a5b30"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/GUI" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/b1mapping/Contents.m" value="6067936"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/b1mapping" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/diffusion/Contents.m" value="83b8b9d"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/diffusion" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/io/Contents.m" value="9460020f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/io" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/set_imgtools_path.m" value="4a642843"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/t1mapping/Contents.m" value="e523312a"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/t1mapping" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/tools/Contents.m" value="1424cb7f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/tools" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/startup.m" value="23351a52"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/Contents.m" value="f40ff99f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/ctfroot.m" value="49d2117c"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/system_dependent.m" value="5ad72d5"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/Contents.m" value="57ddb439"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/matlabrc.m" value="7a5a6eff"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/printopt.m" value="39f0daa7"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/aa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ab.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/abr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ace.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ach.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ady.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/aeb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/af.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/aln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/am.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/an.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ar.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/arn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/arq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ary.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/arz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/as.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ast.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/av.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/awa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ay.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/az.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ba.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bal.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ban.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bar.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bbc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bci.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/be.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bej.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bem.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ber.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bew.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bgc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bgn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bhb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bhi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bhk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bho.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bik.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bin.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bjj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bjn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bjt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bqi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/br.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/brh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/brx.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bsc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/buc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bug.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/bum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/byn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ca.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ce.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ceb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/cgg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ch.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/chk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/chr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ckb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/co.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/crh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/crs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/cs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/csb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/cv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/cy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/da.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dcc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/de.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dje.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/doi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dsb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dyo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dyu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/dz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ee.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/efi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/el.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/en.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/es.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/et.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/eu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ff.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ffm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fud.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fuq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fur.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fuv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/fy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ga.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gaa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gbm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gbz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gcr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gez.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/glk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gom.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gor.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gsw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/guz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/gv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ha.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/haw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/haz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/he.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hif.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hne.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hno.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ho.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hoc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hoj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hsb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hsn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ht.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/hy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ibb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/id.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ig.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ii.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ik.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ikt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ilo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/inh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/is.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/it.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/iu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ja.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/jam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/jml.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/jv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ka.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kab.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kbd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kde.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kea.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kfy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kha.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/khn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ki.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/km.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kmb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/knf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ko.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/koi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kok.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/krc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kri.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kru.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ks.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ku.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/kxm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ky.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/la.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lah.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/laj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lbe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lez.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/li.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ljp.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lmn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lrc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lua.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/luo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/luy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/luz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/lv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mad.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mag.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mai.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/man.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mdf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mdh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/membrane.icns" value="42a8d24f"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/men.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mer.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mey.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mfa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mfe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mfv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mgh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/min.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ml.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mni.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/moh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mos.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ms.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mtr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mwr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/my.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/myv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/myx.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/mzn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/na.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ndc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nds.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ne.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/new.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ng.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ngl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/niu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/no.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nod.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/noe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nso.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ny.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nym.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/nyn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/oc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/om.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/or.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/os.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pag.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pap.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pau.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pcm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/prs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ps.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/pt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/qu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/quc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/quz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/raj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rcf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rej.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rif.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rkt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rmt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ro.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ru.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/rw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sah.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sas.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sat.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sav.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sck.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sco.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sdh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/se.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sef.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/seh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/shi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/shn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/shs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/si.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sid.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/skr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sma.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/smj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/smn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sms.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/snf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/snk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/so.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sou.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/srn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/srr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ss.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/st.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/su.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/suk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sus.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/sw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/swb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/swc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/swv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/syl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/syr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ta.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tcy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/te.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tem.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/teo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tet.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/th.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ti.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tig.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tiv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tkl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tmh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tnr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/to.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tpi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ts.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tsg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tts.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tvl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ty.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tyv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/tzm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/udm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ug.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/uk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/umb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/und.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/unr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ur.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/uz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/vai.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/ve.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/vi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/vls.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/vmf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/vmw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wal.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/war.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wbq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wbr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wls.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wni.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wtm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/wuu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/xh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/xnr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/xog.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/yi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/yo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/yue.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/za.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zdj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zgh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zh-Hans.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zh-Hant-HK.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources/zza.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents/Resources" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app/Contents" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/DeniftifyApp.app" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/readme.txt" value="74c42ed8"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/run_DeniftifyApp.sh" value="a08aa7b3"/>
+        <File path="DeniftifyApp/for_redistribution_files_only/splash.png" value="d6c53644"/>
+        <File path="DeniftifyApp/for_redistribution_files_only" value="-1"/>
+        <File path="DeniftifyApp/for_redistribution" value="-1"/>
+        <File path="DeniftifyApp/for_testing/.DS_Store" value="4aa0b625"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Info.plist" value="afb6481"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/MacOS/DeniftifyApp" value="7949e76b"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/MacOS/applauncher" value="e81a4e82"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/MacOS/prelaunch" value="1ab25456"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/MacOS" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib/keyedobjects-101300.nib" value="6c64d4ad"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib/keyedobjects.nib" value="8ae8fece"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/About.nib" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib/keyedobjects-101300.nib" value="3bfff68f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib/keyedobjects.nib" value="1bff54f6"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWOpenAccessoryView.nib" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib/keyedobjects-101300.nib" value="f9649ce0"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib/keyedobjects.nib" value="df56e274"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MWSaveAccessoryView.nib" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib" value="38834790"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib/keyedobjects.nib" value="125d1029"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj/MainMenu.nib" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/Base.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp.ctf" value="91fc0e9e"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/includedSupportPackages.txt" value="0"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/manifest.xml" value="1b6e417c"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/requiredMCRProducts.txt" value="ad4cfc85"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META/unresolvedSymbols.txt" value="93767466"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.META" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlab.mlsettings" value="7f28a157"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlab.prf" value="cec2650f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab/matlabprefs.mat" value="d7ef4e6b"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/.matlab" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/deniftify.mlapp" value="c86cbe79"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/source/dfparse.m" value="794721ee"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp/source" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp_39c2e04e-8ca3-4768-93d6-9cd23b24b832/token" value="f4dbdf21"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp_39c2e04e-8ca3-4768-93d6-9cd23b24b832" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/DeniftifyApp" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI/source/Contents.m" value="a4a27637"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI/source" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes/WSI" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons/Toolboxes" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks/MATLAB Add-Ons" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support/MathWorks" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library/Application Support" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/Library" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-external/set_external_path.m" value="d889ab81"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-external" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/SpinCalc1p3/SpinCalc.m" value="ce823cca"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/SpinCalc1p3" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external/text2im.m" value="6f8ab587"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/external" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/cast_private.m" value="11807d82"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/d2mat.m" value="857d8f6b"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/data_process.m" value="3ad1b3e5"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/fillstruct.m" value="2b8de9f8"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/writeDicom.m" value="a74f18ae"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io/xmlparrecread.m" value="c44b6176"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/io" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/set_imgtools_public_path.m" value="e3acf7d4"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/dgeom.m" value="d4b56bbc"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/dgeomextract.m" value="b048a6bc"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/geom2sro.m" value="d8aab3b5"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/point_plane.m" value="3f739592"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools/set_plane.m" value="69fdd234"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public/tools" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools-public" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/GUI/Contents.m" value="1a0a5b30"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/GUI" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/b1mapping/Contents.m" value="6067936"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/b1mapping" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/diffusion/Contents.m" value="83b8b9d"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/diffusion" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/io/Contents.m" value="9460020f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/io" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/set_imgtools_path.m" value="4a642843"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/t1mapping/Contents.m" value="e523312a"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/t1mapping" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/tools/Contents.m" value="1424cb7f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools/tools" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/imgtools" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab/startup.m" value="23351a52"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson/matlab" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users/davidatkinson" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/Users" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/Contents.m" value="f40ff99f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/ctfroot.m" value="49d2117c"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler/system_dependent.m" value="5ad72d5"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/compiler" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/Contents.m" value="57ddb439"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/matlabrc.m" value="7a5a6eff"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local/printopt.m" value="39f0daa7"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox/local" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr/toolbox" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/DeniftifyApp_mcr" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/aa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ab.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/abr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ace.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ach.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ady.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/aeb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/af.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/aln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/am.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/an.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ar.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/arn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/arq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ary.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/arz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/as.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ast.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/av.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/awa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ay.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/az.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ba.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bal.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ban.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bar.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bbc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bci.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/be.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bej.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bem.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ber.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bew.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bgc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bgn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bhb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bhi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bhk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bho.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bik.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bin.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bjj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bjn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bjt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bqi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/br.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/brh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/brx.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bsc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/buc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bug.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/bum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/byn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ca.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ce.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ceb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/cgg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ch.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/chk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/chr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ckb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/co.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/crh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/crs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/cs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/csb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/cv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/cy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/da.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dcc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/de.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dje.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/doi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dsb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dyo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dyu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/dz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ee.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/efi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/el.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/en.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/es.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/et.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/eu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ff.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ffm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fud.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fuq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fur.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fuv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/fy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ga.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gaa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gbm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gbz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gcr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gez.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/glk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gom.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gor.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gsw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/guz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/gv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ha.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/haw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/haz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/he.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hif.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hil.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hne.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hno.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ho.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hoc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hoj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hsb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hsn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ht.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/hy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ibb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/id.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ig.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ii.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ik.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ikt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ilo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/inh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/is.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/it.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/iu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ja.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/jam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/jml.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/jv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ka.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kab.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kbd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kde.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kea.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kfy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kha.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/khn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ki.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/km.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kmb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/knf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ko.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/koi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kok.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/krc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kri.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kru.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ks.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ku.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/kxm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ky.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/la.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lah.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/laj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lbe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lez.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/li.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ljp.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lmn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ln.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lrc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lua.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/luo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/luy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/luz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/lv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mad.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mag.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mai.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mak.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/man.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mdf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mdh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/membrane.icns" value="42a8d24f"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/men.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mer.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mey.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mfa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mfe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mfv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mgh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/min.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ml.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mni.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/moh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mos.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ms.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mtr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mwr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/my.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/myv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/myx.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/mzn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/na.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nan.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ndc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nds.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ne.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/new.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ng.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ngl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/niu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/no.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nod.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/noe.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nso.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ny.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nym.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/nyn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/oc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/om.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/or.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/os.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pag.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pam.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pap.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pau.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pcm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pon.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/prs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ps.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/pt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/qu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/quc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/quz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/raj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rcf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rej.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rif.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rkt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rmt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ro.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ru.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/rw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sah.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sas.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sat.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sav.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sck.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sco.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sd.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sdh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/se.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sef.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/seh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/shi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/shn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/shs.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/si.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sid.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/skr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sma.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/smj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/smn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sms.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/snf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/snk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/so.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sou.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/srn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/srr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ss.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/st.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/su.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/suk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sus.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/sw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/swb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/swc.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/swv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/syl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/syr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ta.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tcy.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/te.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tem.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/teo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tet.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/th.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ti.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tig.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tiv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tkl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tmh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tn.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tnr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/to.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tpi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ts.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tsg.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tt.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tts.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tum.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tvl.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ty.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tyv.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/tzm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/udm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ug.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/uk.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/umb.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/und.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/unr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ur.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/uz.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/vai.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/ve.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/vi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/vls.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/vmf.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/vmw.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wa.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wal.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/war.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wbq.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wbr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wls.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wni.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wtm.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/wuu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/xh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/xnr.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/xog.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/yi.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/yo.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/yue.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/za.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zdj.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zgh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zh-Hans.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zh-Hant-HK.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zh.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zu.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources/zza.lproj" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents/Resources" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app/Contents" value="-1"/>
+        <File path="DeniftifyApp/for_testing/DeniftifyApp.app" value="-1"/>
+        <File path="DeniftifyApp/for_testing/includedSupportPackages.txt" value="0"/>
+        <File path="DeniftifyApp/for_testing/mccExcludedFiles.log" value="c183e00e"/>
+        <File path="DeniftifyApp/for_testing/readme.txt" value="74c42ed8"/>
+        <File path="DeniftifyApp/for_testing/requiredMCRProducts.txt" value="ad4cfc85"/>
+        <File path="DeniftifyApp/for_testing/run_DeniftifyApp.sh" value="a08aa7b3"/>
+        <File path="DeniftifyApp/for_testing/splash.png" value="d6c53644"/>
+        <File path="DeniftifyApp/for_testing/unresolvedSymbols.txt" value="93767466"/>
+        <File path="DeniftifyApp/for_testing" value="-1"/>
+        <File path="DeniftifyApp" value="-1"/>
+        <File path="ToolboxPackagingConfiguration.prj" value="99b489"/>
+        <File path="buildRealWorldValueMappingSequence.m" value="3d9422f5"/>
+        <File path="cmaps/cmapfIC.mat" value="d658bae5"/>
+        <File path="cmaps/cmaplwilast2.mat" value="fb023cb5"/>
+        <File path="cmaps" value="-1"/>
+        <File path="deniftify.mlapp" value="a78a1fb2"/>
+        <File path="distribution/.DS_Store" value="b54bf747"/>
+        <File path="distribution/R2022a/Deniftify App.mlappinstall" value="c6530613"/>
+        <File path="distribution/R2022a" value="-1"/>
+        <File path="distribution/R2023a_prerelease/Deniftify App.mlappinstall" value="2864c366"/>
+        <File path="distribution/R2023a_prerelease" value="-1"/>
+        <File path="distribution" value="-1"/>
+        <File path="doc/GettingStarted.mlx" value="8613218a"/>
+        <File path="doc" value="-1"/>
+        <File path="plane_fit.asv" value="87cb1131"/>
+        <File path="requirements/requirementsDICOM.mlx" value="b49aabe0"/>
+        <File path="requirements/requirementsROI.mlx" value="29a2a207"/>
+        <File path="requirements" value="-1"/>
+        <File path="resources/project/2vJrPUoNn9xNsH3-FpWkPtUE97Y" value="-1"/>
+        <File path="resources/project/Abllu374wtDd3IliE-5ZoGpf8mM/_MCXUodwxypf6VADjNZvvspM_gEd.xml" value="3af507e"/>
+        <File path="resources/project/Abllu374wtDd3IliE-5ZoGpf8mM/_MCXUodwxypf6VADjNZvvspM_gEp.xml" value="8bc72372"/>
+        <File path="resources/project/Abllu374wtDd3IliE-5ZoGpf8mM/feAB0iKSmURY6NZdQeW8106J6fod.xml" value="df0217e1"/>
+        <File path="resources/project/Abllu374wtDd3IliE-5ZoGpf8mM/feAB0iKSmURY6NZdQeW8106J6fop.xml" value="8379ea8b"/>
+        <File path="resources/project/Abllu374wtDd3IliE-5ZoGpf8mM" value="-1"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/BABk8eqeuyuG5QX4ag-_SdkZSL8d.xml" value="8ca4beec"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/BABk8eqeuyuG5QX4ag-_SdkZSL8p.xml" value="c367808e"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/SSaVYJRH34km8dnlQks1x9H9ATMd.xml" value="8f39465b"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/SSaVYJRH34km8dnlQks1x9H9ATMp.xml" value="85dcac5"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/TKleMRVAaWu-1Jkvfw-vtveNA6kd.xml" value="3ab42826"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/TKleMRVAaWu-1Jkvfw-vtveNA6kp.xml" value="7e44a7e5"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/hMfoCTcB30ZiJsYO3pOXd8bU3God.xml" value="3f2d8e63"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA/hMfoCTcB30ZiJsYO3pOXd8bU3Gop.xml" value="c2a58f6"/>
+        <File path="resources/project/EEtUlUb-dLAdf0KpMVivaUlztwA" value="-1"/>
+        <File path="resources/project/GNMWgYwxGsjRVtgg-sSVd-xXPJc" value="-1"/>
+        <File path="resources/project/HoHDHQ_WvHAAKj5aJOrvrg_vpt8/xXlmKuOQ7YT_G1elNhbKQIUqSRMd.xml" value="8db4c740"/>
+        <File path="resources/project/HoHDHQ_WvHAAKj5aJOrvrg_vpt8/xXlmKuOQ7YT_G1elNhbKQIUqSRMp.xml" value="2f2463ae"/>
+        <File path="resources/project/HoHDHQ_WvHAAKj5aJOrvrg_vpt8" value="-1"/>
+        <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/dF5Q58IHKt_sHpI0l9Y5MgQ5mEAd.xml" value="f84c6e87"/>
+        <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E/dF5Q58IHKt_sHpI0l9Y5MgQ5mEAp.xml" value="b3795c15"/>
+        <File path="resources/project/KAXfQgCar2Yb8zOxgvf9hdmLP1E" value="-1"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/0j-oAEra9D8HVitHH8uTV4Yew3Ad.xml" value="df0217e1"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/0j-oAEra9D8HVitHH8uTV4Yew3Ap.xml" value="710f90f6"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/Cym3lF9MCdLyOz7MA2H3Z_HJ9asd.xml" value="3af507e"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/Cym3lF9MCdLyOz7MA2H3Z_HJ9asp.xml" value="8bc72372"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/MkZxaiVuB43bKf1vO9bVWXr8zFYd.xml" value="3af507e"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/MkZxaiVuB43bKf1vO9bVWXr8zFYp.xml" value="579e977a"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/SgHDFUwZTP2EIMc7BdtcV-Qt53Md.xml" value="3af507e"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/SgHDFUwZTP2EIMc7BdtcV-Qt53Mp.xml" value="988d2b34"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/W1Mb14Tn6YfLE9c59rRGgfG7p9Qd.xml" value="317cfbea"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/W1Mb14Tn6YfLE9c59rRGgfG7p9Qp.xml" value="13e11f9a"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/bujXV6PO65pPuNGu2cFKgI97Sb8d.xml" value="df0217e1"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/bujXV6PO65pPuNGu2cFKgI97Sb8p.xml" value="f83987d6"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/ja4VUrIKDQO9VS8PRqWDFiG8Gscd.xml" value="317cfbea"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/ja4VUrIKDQO9VS8PRqWDFiG8Gscp.xml" value="8ac1829d"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/rexNifm4wbZMIQVjCsFuABHPTKUd.xml" value="df0217e1"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo/rexNifm4wbZMIQVjCsFuABHPTKUp.xml" value="ff1713f4"/>
+        <File path="resources/project/KpVHOAtQ0CWxHd2H2QUMNHb0zUo" value="-1"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/2QbiIh7jQrBB8tJSxDve3pd5IxUd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/2QbiIh7jQrBB8tJSxDve3pd5IxUp.xml" value="136c55c3"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/8qsTH9u2lOEl-PrArtEQB4D1xG8d.xml" value="fbf03ea7"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/8qsTH9u2lOEl-PrArtEQB4D1xG8p.xml" value="49367cde"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/CvdNKZaoR3OddG5TkSKK6epzW2cd.xml" value="df0217e1"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/CvdNKZaoR3OddG5TkSKK6epzW2cp.xml" value="95677617"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/EEQii0BnKJLhMO9GUYSa4vOLN-Ud.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/EEQii0BnKJLhMO9GUYSa4vOLN-Up.xml" value="b60cb792"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/FT-ii5RNXOWYesw1Qs-sT4cwGycd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/FT-ii5RNXOWYesw1Qs-sT4cwGycp.xml" value="d92d2d39"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/KAYy-2iAIQRk7BwHHLr3oDQhNxYd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/KAYy-2iAIQRk7BwHHLr3oDQhNxYp.xml" value="662c537f"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/YQZODAGKoCI0BmHYcdoKy-oGG3sd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/YQZODAGKoCI0BmHYcdoKy-oGG3sp.xml" value="a0fe034b"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/Yt0w9JvKMyS7bbLX-osO0tDP00Md.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/Yt0w9JvKMyS7bbLX-osO0tDP00Mp.xml" value="e92c790d"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/faihH0a1hkD-48NQtzmRTVPOXFMd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/faihH0a1hkD-48NQtzmRTVPOXFMp.xml" value="5add7bf5"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/ggWMNK0DatdBVlgwIJDfJDKQMegd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/ggWMNK0DatdBVlgwIJDfJDKQMegp.xml" value="e29ba78b"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/kKkc3468WUW_8ylPNbssUfCxYdEd.xml" value="3af507e"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/kKkc3468WUW_8ylPNbssUfCxYdEp.xml" value="8bc72372"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/oYLq-wGC8ifgW-LiQyy2exuiPDEd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/oYLq-wGC8ifgW-LiQyy2exuiPDEp.xml" value="620ca328"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/p0f7HWBBD2KiSQTKKsj_3uRbAQMd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/p0f7HWBBD2KiSQTKKsj_3uRbAQMp.xml" value="c997e337"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/rsub2btBkryXc--Sa5mo6iwJQDod.xml" value="df0217e1"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/rsub2btBkryXc--Sa5mo6iwJQDop.xml" value="f1eb327a"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/sdcfRnYdkykF9gT-5DHURKZnggkd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/sdcfRnYdkykF9gT-5DHURKZnggkp.xml" value="cac6bcba"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/wrXMyswFcGGhYyno_vPI6JH2Iqwd.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/wrXMyswFcGGhYyno_vPI6JH2Iqwp.xml" value="70dd77f7"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/zDpKjl19C-cFKrMJzuZnbMA18Bod.xml" value="317cfbea"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY/zDpKjl19C-cFKrMJzuZnbMA18Bop.xml" value="d3bb34a4"/>
+        <File path="resources/project/MkZxaiVuB43bKf1vO9bVWXr8zFY" value="-1"/>
+        <File path="resources/project/NVwEgezmop7rCqPzEkLcglelcm0/J67KJzvMEZa-BvhvOv2Oc88oFmYd.xml" value="fbf03ea7"/>
+        <File path="resources/project/NVwEgezmop7rCqPzEkLcglelcm0/J67KJzvMEZa-BvhvOv2Oc88oFmYp.xml" value="9bd9d47f"/>
+        <File path="resources/project/NVwEgezmop7rCqPzEkLcglelcm0" value="-1"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4d.xml" value="eff7b485"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/2kj09UetkV_lru3gvSPXnY6-nM4p.xml" value="7b002da4"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8d.xml" value="7716e543"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/KKyDJtbdIBOlaeHmIZd5VX6vqx8p.xml" value="4cce81bc"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4d.xml" value="9fa19c1e"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/QWNDYJD5mGW1bWYvPx9DtKnxzw4p.xml" value="69a90595"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Id.xml" value="4434695f"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/R1RggVhA72agIvELiuhWPRS8F0Ip.xml" value="435fd6b1"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZod.xml" value="b32f4cc5"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/aEHSZBIY-yve10yGis12Zr5DLZop.xml" value="9ee37d25"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencd.xml" value="657f94e3"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/j4xwF_j8iFTVayUMfxLgMnTbencp.xml" value="a55c6f90"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkd.xml" value="3a808e07"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/r8LR4nLmg9ai3oHrW1r_-KocQzkp.xml" value="81b62498"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/ywiXLXi9dOe_pPjFW_iOryCoIEEd.xml" value="99c954b9"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs/ywiXLXi9dOe_pPjFW_iOryCoIEEp.xml" value="82b91dec"/>
+        <File path="resources/project/NjSPEMsIuLUyIpr2u1Js5bVPsOs" value="-1"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/6YkoWZDy6oJpe_ZlO0cpQ4MV3PMd.xml" value="df0217e1"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/6YkoWZDy6oJpe_ZlO0cpQ4MV3PMp.xml" value="bd2b638f"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/VCz99DQKDfXLTrdILj_Y2cAp6Owd.xml" value="3af507e"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/VCz99DQKDfXLTrdILj_Y2cAp6Owp.xml" value="8bc72372"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/rhyQ8M8oDY4DE_3c9A4sPAhHkZAd.xml" value="df0217e1"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34/rhyQ8M8oDY4DE_3c9A4sPAhHkZAp.xml" value="32d493a3"/>
+        <File path="resources/project/O3PE08tthh8vbeCDscSoeK-ou34" value="-1"/>
+        <File path="resources/project/Ox0h7eKY7OfawaTBcNxGNK_OemY/hPvJQbxEsYNePeJ5Z2gUQBsSDm8p.xml" value="c94f9903"/>
+        <File path="resources/project/Ox0h7eKY7OfawaTBcNxGNK_OemY" value="-1"/>
+        <File path="resources/project/PaWXgHHUldnu6wAwuzGT8gReeD8/6MowilDb8yqX1_z50NLbigrzCPkd.xml" value="fbf03ea7"/>
+        <File path="resources/project/PaWXgHHUldnu6wAwuzGT8gReeD8/6MowilDb8yqX1_z50NLbigrzCPkp.xml" value="9bd9d47f"/>
+        <File path="resources/project/PaWXgHHUldnu6wAwuzGT8gReeD8" value="-1"/>
+        <File path="resources/project/Project.xml" value="afc53f38"/>
+        <File path="resources/project/Rw7RpZXXvLtDZzjfHDheln1TSAw" value="-1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/2_x2iW5EmCDJ85pSE3fuv4OxiQgd.xml" value="df0217e1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/2_x2iW5EmCDJ85pSE3fuv4OxiQgp.xml" value="143b7330"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/8h762Px3rC5zUBtRLGb7NuB9QBsd.xml" value="317cfbea"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/8h762Px3rC5zUBtRLGb7NuB9QBsp.xml" value="1dc7955d"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/A_U3UMkR0OIYHaNKNwF1BZ8FKxMd.xml" value="df0217e1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/A_U3UMkR0OIYHaNKNwF1BZ8FKxMp.xml" value="e6e97712"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/BGjv3BT0hggszu-dwS52G17yfEkd.xml" value="df0217e1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/BGjv3BT0hggszu-dwS52G17yfEkp.xml" value="f1da9595"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/Gf_ERUFZsIWfrdYNnDL4dOxkC2Yd.xml" value="df0217e1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/Gf_ERUFZsIWfrdYNnDL4dOxkC2Yp.xml" value="bcb03c08"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/TwgZe7DzhP-2aPYuVhAxpu5lRtMd.xml" value="df0217e1"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/TwgZe7DzhP-2aPYuVhAxpu5lRtMp.xml" value="8457229c"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/dpKDoOQMkMRQ9rnI-MFCMS1xMwod.xml" value="3af507e"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/dpKDoOQMkMRQ9rnI-MFCMS1xMwop.xml" value="8bc72372"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/l-r7vfT9tEfrJbdk4rbwwHYogysd.xml" value="317cfbea"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/l-r7vfT9tEfrJbdk4rbwwHYogysp.xml" value="db00c1be"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/rK4H2i7mnK3LGbiYWkcezUmacqEd.xml" value="317cfbea"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M/rK4H2i7mnK3LGbiYWkcezUmacqEp.xml" value="92fdd86"/>
+        <File path="resources/project/SgHDFUwZTP2EIMc7BdtcV-Qt53M" value="-1"/>
+        <File path="resources/project/Tpa2TdYQyLNeWJn7EF8wbNd7gFU/Ox0h7eKY7OfawaTBcNxGNK_OemYd.xml" value="cb9573cd"/>
+        <File path="resources/project/Tpa2TdYQyLNeWJn7EF8wbNd7gFU/Ox0h7eKY7OfawaTBcNxGNK_OemYp.xml" value="763aa5a1"/>
+        <File path="resources/project/Tpa2TdYQyLNeWJn7EF8wbNd7gFU" value="-1"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/CPsU3zQkt36DECt6PV9TMj3EJd8d.xml" value="3af507e"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/CPsU3zQkt36DECt6PV9TMj3EJd8p.xml" value="8bc72372"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/YHR8zgKNYDWvm5bJgd8E4kxkVTcd.xml" value="3af507e"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/YHR8zgKNYDWvm5bJgd8E4kxkVTcp.xml" value="c1851499"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/hyI4xRIhPaZL_Hg34h9nae6nKlod.xml" value="3af507e"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE/hyI4xRIhPaZL_Hg34h9nae6nKlop.xml" value="5229464e"/>
+        <File path="resources/project/WeKoJSw7OEuwVdRQ1eXDnZrXfLE" value="-1"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/4--GXK3pHCQXUPQAgyjcqzA-dl0d.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/4--GXK3pHCQXUPQAgyjcqzA-dl0p.xml" value="28440ef8"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/5r-ROT-PhSwHy8eA0c-UfKdHa2cd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/5r-ROT-PhSwHy8eA0c-UfKdHa2cp.xml" value="8bc72372"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/5wpM50hMi-aK0cX33CFTN_ZuzmUd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/5wpM50hMi-aK0cX33CFTN_ZuzmUp.xml" value="fb8b0248"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/7nhu7wCstX-sfZWcEZbxzW8HlpQd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/7nhu7wCstX-sfZWcEZbxzW8HlpQp.xml" value="76a8856d"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/Ash1OOpz-CRfc7rpt32UD2aY8zQd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/Ash1OOpz-CRfc7rpt32UD2aY8zQp.xml" value="809580ab"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/RFd4gUXI-jN19yrSLFo8PNynJhsd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/RFd4gUXI-jN19yrSLFo8PNynJhsp.xml" value="926c8410"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/b47TDe5y7rv1I3SEWtaa5tu3IJ0d.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/b47TDe5y7rv1I3SEWtaa5tu3IJ0p.xml" value="645181d6"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/k-4Wvm7dqXtSfEMhYMzcN4vI63Ud.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/k-4Wvm7dqXtSfEMhYMzcN4vI63Up.xml" value="1f4f0335"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/o4A_8fC9Lto4c4NQmvB1HZSyKbcd.xml" value="3af507e"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc/o4A_8fC9Lto4c4NQmvB1HZSyKbcp.xml" value="e97206f3"/>
+        <File path="resources/project/YHR8zgKNYDWvm5bJgd8E4kxkVTc" value="-1"/>
+        <File path="resources/project/YhuPDDuEWIGe0C07ihHYccefon0/cSvJV8SYECwmpOUT6v1OqSH6G28d.xml" value="317cfbea"/>
+        <File path="resources/project/YhuPDDuEWIGe0C07ihHYccefon0/cSvJV8SYECwmpOUT6v1OqSH6G28p.xml" value="6a6d4652"/>
+        <File path="resources/project/YhuPDDuEWIGe0C07ihHYccefon0/mXCVGRnnD-Nx2c1j7zCLj-Znmgod.xml" value="fbf03ea7"/>
+        <File path="resources/project/YhuPDDuEWIGe0C07ihHYccefon0/mXCVGRnnD-Nx2c1j7zCLj-Znmgop.xml" value="9bd9d47f"/>
+        <File path="resources/project/YhuPDDuEWIGe0C07ihHYccefon0" value="-1"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsd.xml" value="d2dc6b71"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k/NjSPEMsIuLUyIpr2u1Js5bVPsOsp.xml" value="24933817"/>
+        <File path="resources/project/fjRQtWiSIy7hIlj-Kmk87M7s21k" value="-1"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/60VtDhiDa56YIJyobh3zNCXw-9od.xml" value="e3fa644d"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/60VtDhiDa56YIJyobh3zNCXw-9op.xml" value="48197006"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/8Qdz0iiiuHlFJjxB6c5reQ4NAkQd.xml" value="3af507e"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/8Qdz0iiiuHlFJjxB6c5reQ4NAkQp.xml" value="8bc72372"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/AmkTZW_m4OvXy75tFyE6xPmNzlod.xml" value="e3fa644d"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/AmkTZW_m4OvXy75tFyE6xPmNzlop.xml" value="1a4840"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/Lu8Rp8bk5-UMYYPcDuuSc_O9nuQd.xml" value="e3fa644d"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/Lu8Rp8bk5-UMYYPcDuuSc_O9nuQp.xml" value="14d873c1"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/faAvJV39_miG9cGIVtKaPdpClwod.xml" value="e3fa644d"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/faAvJV39_miG9cGIVtKaPdpClwop.xml" value="4244c973"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/geinISKHy_4V1V4yBqlZZHIvH_Id.xml" value="e3fa644d"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/geinISKHy_4V1V4yBqlZZHIvH_Ip.xml" value="ba289dae"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/yyAGB5oKWsmn444uSf6RgF4kdQEd.xml" value="caeb86ce"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s/yyAGB5oKWsmn444uSf6RgF4kdQEp.xml" value="571df198"/>
+        <File path="resources/project/hLMKfvmMZYFbdoE4Xco7ryXas6s" value="-1"/>
+        <File path="resources/project/hPvJQbxEsYNePeJ5Z2gUQBsSDm8/DF4po_yA_b3IVYIu_9DeYpPXdm8d.xml" value="cd9bde9e"/>
+        <File path="resources/project/hPvJQbxEsYNePeJ5Z2gUQBsSDm8/DF4po_yA_b3IVYIu_9DeYpPXdm8p.xml" value="2f146054"/>
+        <File path="resources/project/hPvJQbxEsYNePeJ5Z2gUQBsSDm8" value="-1"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/Abllu374wtDd3IliE-5ZoGpf8mMd.xml" value="3af507e"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/Abllu374wtDd3IliE-5ZoGpf8mMp.xml" value="c903a4b0"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/HoJD8Z4scfzyShdM1iiY2-VxLr8d.xml" value="fbf03ea7"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/HoJD8Z4scfzyShdM1iiY2-VxLr8p.xml" value="4783185e"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/KpVHOAtQ0CWxHd2H2QUMNHb0zUod.xml" value="df0217e1"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/KpVHOAtQ0CWxHd2H2QUMNHb0zUop.xml" value="da5efd58"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/NVwEgezmop7rCqPzEkLcglelcm0d.xml" value="fbf03ea7"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/NVwEgezmop7rCqPzEkLcglelcm0p.xml" value="fa32fbb3"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/O3PE08tthh8vbeCDscSoeK-ou34d.xml" value="3af507e"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/O3PE08tthh8vbeCDscSoeK-ou34p.xml" value="715a2aa8"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/RnH6l08xCDN48KgMmsiACqHWHT8d.xml" value="317cfbea"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/RnH6l08xCDN48KgMmsiACqHWHT8p.xml" value="71e65d41"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/TMK4UzWHdRLhy_w-CHt9y11Q8XAd.xml" value="f9e384d"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/TMK4UzWHdRLhy_w-CHt9y11Q8XAp.xml" value="3cd93c5b"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/WeKoJSw7OEuwVdRQ1eXDnZrXfLEd.xml" value="3af507e"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/WeKoJSw7OEuwVdRQ1eXDnZrXfLEp.xml" value="b8cbaf2b"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/YhuPDDuEWIGe0C07ihHYccefon0d.xml" value="fbf03ea7"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/YhuPDDuEWIGe0C07ihHYccefon0p.xml" value="13d68918"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/hLMKfvmMZYFbdoE4Xco7ryXas6sd.xml" value="3af507e"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/hLMKfvmMZYFbdoE4Xco7ryXas6sp.xml" value="caf2ee3d"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/qD-kr16wmwlzR-nIg1IG_vvRrWkd.xml" value="f9e384d"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ/qD-kr16wmwlzR-nIg1IG_vvRrWkp.xml" value="815cc74a"/>
+        <File path="resources/project/qaw0eS1zuuY1ar9TdPn1GMfrjbQ" value="-1"/>
+        <File path="resources/project/root/6x1BhZX_fLnKpcwqra0qFwv1jIgp.xml" value="2b03b801"/>
+        <File path="resources/project/root/EEtUlUb-dLAdf0KpMVivaUlztwAp.xml" value="eea8f21b"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQd.xml" value="5ea4c862"/>
+        <File path="resources/project/root/GiiBklLgTxteCEmomM8RCvWT0nQp.xml" value="c92de2c0"/>
+        <File path="resources/project/root/HoHDHQ_WvHAAKj5aJOrvrg_vpt8p.xml" value="aa2af40b"/>
+        <File path="resources/project/root/KAXfQgCar2Yb8zOxgvf9hdmLP1Ep.xml" value="fe97d152"/>
+        <File path="resources/project/root/NmGqIpAwUJcXFyLjFAGnU9uyN5Yp.xml" value="1b49afbb"/>
+        <File path="resources/project/root/PaWXgHHUldnu6wAwuzGT8gReeD8d.xml" value="ef93e0a8"/>
+        <File path="resources/project/root/PaWXgHHUldnu6wAwuzGT8gReeD8p.xml" value="be17db8d"/>
+        <File path="resources/project/root/Tpa2TdYQyLNeWJn7EF8wbNd7gFUp.xml" value="d09080a2"/>
+        <File path="resources/project/root/fjRQtWiSIy7hIlj-Kmk87M7s21kp.xml" value="7e742dae"/>
+        <File path="resources/project/root/qaw0eS1zuuY1ar9TdPn1GMfrjbQp.xml" value="4a2f6ccc"/>
+        <File path="resources/project/rootp.xml" value="3af507e"/>
+        <File path="resources/project/root" value="-1"/>
+        <File path="resources/project/uuid-c10687e4-8617-41e7-8a44-0237ca6cdc07.xml" value="3af507e"/>
+        <File path="resources/project" value="-1"/>
+        <File path="resources" value="-1"/>
+        <File path="source/.DS_Store" value="8f154bae"/>
+        <File path="source/DICOMROI/coord2D3D.m" value="5448946f"/>
+        <File path="source/DICOMROI/dicomRTStruct.m" value="36cb8581"/>
+        <File path="source/DICOMROI/display_rtstruct.m" value="6d1a9ebc"/>
+        <File path="source/DICOMROI/frameOfRefCheck.m" value="8d007fe4"/>
+        <File path="source/DICOMROI/indexRT.m" value="82f46393"/>
+        <File path="source/DICOMROI/infoFromClassic.m" value="e0d3ce6e"/>
+        <File path="source/DICOMROI/ref2RT.m" value="9dc085fb"/>
+        <File path="source/DICOMROI/replaceRefInfo.m" value="7716bf68"/>
+        <File path="source/DICOMROI" value="-1"/>
+        <File path="source/SOPClassInfo.m" value="348a429a"/>
+        <File path="source/dfparse.asv" value="68401738"/>
+        <File path="source/dfparse.m" value="5781c3a0"/>
+        <File path="source/dmpr.m" value="81001973"/>
+        <File path="source/dselector App.prj" value="82853fac"/>
+        <File path="source/dselector.mlapp" value="30e205"/>
+        <File path="source/dsliceCorners.asv" value="2e30c87a"/>
+        <File path="source/dsliceCorners.m" value="45b5682f"/>
+        <File path="source/dstructinfo.m" value="4fce2335"/>
+        <File path="source/line_intersection3D.m" value="6cbfaa27"/>
+        <File path="source/plane_intersection3D.m" value="6831d50f"/>
+        <File path="source/readSingleSliceDynamics.asv" value="7e1b6aac"/>
+        <File path="source/readSingleSliceDynamics.m" value="a4aaa521"/>
+        <File path="source/tools/.DS_Store" value="6d88006a"/>
+        <File path="source/tools/Philips-R32-dict.txt" value="bd868989"/>
+        <File path="source/tools/blendImScalar.asv" value="1515189"/>
+        <File path="source/tools/blendImScalar.m" value="8d46a77a"/>
+        <File path="source/tools/copyPhilipsPrivate.m" value="e627db09"/>
+        <File path="source/tools/dicomSelect.m" value="e4004d64"/>
+        <File path="source/tools/display_colourmaps.m" value="122ff7ec"/>
+        <File path="source/tools/dprivate2char.m" value="23307abe"/>
+        <File path="source/tools/explore_colourmaps.asv" value="c7f76d3e"/>
+        <File path="source/tools/explore_colourmaps.m" value="5b788833"/>
+        <File path="source/tools/explore_slicesview.m" value="7503c245"/>
+        <File path="source/tools/extract_contour.m" value="f9539062"/>
+        <File path="source/tools/findclosestslice.asv" value="c5dd7eb9"/>
+        <File path="source/tools/findclosestslice.m" value="4cd7ceb5"/>
+        <File path="source/tools/joindictprivate.m" value="5c34d7a8"/>
+        <File path="source/tools/normalise.m" value="1aea9ba"/>
+        <File path="source/tools/plane_fit.m" value="d0aa0851"/>
+        <File path="source/tools/setlink.m" value="a143453c"/>
+        <File path="source/tools/sviewer.asv" value="73b41127"/>
+        <File path="source/tools/sviewer.m" value="82f45c46"/>
+        <File path="source/tools/tiledimCM.m" value="1a942a50"/>
+        <File path="source/tools/update_spatial_ref.m" value="af45a548"/>
+        <File path="source/tools" value="-1"/>
+        <File path="source" value="-1"/>
+        <File path="testDICOMdata/T1W_FFE13slice.dcm" value="ea33b12a"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_001.dcm" value="9e695b6d"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_002.dcm" value="3fd39fa3"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_003.dcm" value="c8f17497"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_004.dcm" value="b909bfa0"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_005.dcm" value="e36a98c6"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_006.dcm" value="fc59c6c7"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_007.dcm" value="eab945ce"/>
+        <File path="testDICOMdata/simulatedDicoms/ME_001_008.dcm" value="75907a89"/>
+        <File path="testDICOMdata/simulatedDicoms" value="-1"/>
+        <File path="testDICOMdata" value="-1"/>
+        <File path="tests/testROI1.m" value="9964e513"/>
+        <File path="tests/testSOPClassInfo.m" value="63c970e8"/>
+        <File path="tests/testcoord2D3D.m" value="ae4311cc"/>
+        <File path="tests/testdfparse.m" value="ef12cde3"/>
+        <File path="tests/testdicomSelect.m" value="bc9a6c1e"/>
+        <File path="tests/testplanefit.m" value="66b59b82"/>
+        <File path="tests" value="-1"/>
+        <File path="utilities/runTheseTests.m" value="90283847"/>
+        <File path="utilities" value="-1"/>
+    </Files>
+    <Date value="27 March 2024 21:12:25"/>
+</Info>
